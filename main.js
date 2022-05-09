@@ -33,7 +33,7 @@ function activateMenuAtCurrentSection(section) {
 }
 
 function showNavOnScroll() {
-  if (scrollY > 60) {
+  if (scrollY > 15) {
     navigation.classList.add('scroll')
   } else {
     navigation.classList.remove('scroll')
